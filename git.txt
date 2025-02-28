@@ -25,6 +25,30 @@
 
 *************** gits de manipulacion de ramas
 
-(git branch) visualiza las ramas existentes en el repositorio
+(git branch) visualiza las ramas existentes de forma local
+(git branch -r) visualizacion de ramas en el repositorio
+
 (git switch -c "nombre de la rama") crea una nueva rama
 (git switch (nombre de la rama)) cambio de rama.
+(git push origin (nombreRama)) subida de commits
+(git push -u origin (nombreRama)) subida de la rama de origen a github
+(git push origin --delete (rama)) eliminacion de una rama del repositorio
+(git branch -D (rama)) eliminacion de la rama de forma local
+
+
+
+**************** proceso de paso de inforacion de una rama a otra
+(git add .)
+(git commit -m "")
+(git push origin (nombre de la rama origen)) subimos todos los commits pendientes a la rama actual
+
+##tenemos que hacer un cambio de rama a la rama que queremos que la informacion sea pasada
+
+(git checkout (rama))
+
+##hacemos un marge de la rama que queremos la informacion de todos los commits existentes
+
+(git merge (main))
+
+
+
