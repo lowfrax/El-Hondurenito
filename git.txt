@@ -5,9 +5,11 @@
 
 
 ************ gits de creacion
+(git remote add origin (url)) conecta el repositorio local con el que esta en la nube
 (touch git.txt) crea un archivo txt
 (git clone +url) clona el repositorio en la direccion actual
 (mkdir nombre_carpeta) crea una carpeta en la direccion actual
+
 
 
 
@@ -18,4 +20,11 @@
 (git add .) agrega todos los archivos al commit
 (git commit -m "mensaje") mensaje del commit
 (git push) subimos el archivo 
-(git log) mira el historial de los commits y en que rama
+(git log) mira el historial de los commits y en que rama, precionar q para salir
+(git checkout (codigo del commit))
+
+*************** gits de manipulacion de ramas
+
+(git branch) visualiza las ramas existentes en el repositorio
+(git switch -c "nombre de la rama") crea una nueva rama
+(git switch (nombre de la rama)) cambio de rama
