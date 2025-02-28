@@ -27,4 +27,4 @@
 
 (git branch) visualiza las ramas existentes en el repositorio
 (git switch -c "nombre de la rama") crea una nueva rama
-(git switch (nombre de la rama)) cambio de rama
+(git switch (nombre de la rama)) cambio de rama.
