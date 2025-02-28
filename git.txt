@@ -2,4 +2,5 @@
 (git status) mira el estatus de los archivos en commit o creados que no se han guardado
 (git add .) agrega todos los archivos al commit
 (git commit -m "mensaje") mensaje del commit
+(git push) subimos el archivo 
 (git log) mira el historial de los commits y en que rama
