@@ -1,3 +1,18 @@
+************* navegacion linux
+(ls) mira los componentes actuales
+(cd nombe_carpeta) entra en una carpeta especifica
+(cd ..) regresa al directorio anterior 
+
+
+************ gits de creacion
+(touch git.txt) crea un archivo txt
+(git clone +url) clona el repositorio en la direccion actual
+(mkdir nombre_carpeta) crea una carpeta en la direccion actual
+
+
+
+************ gits de actualizacion
+
 (git init) crea un repositorio de git nuevo
 (git status) mira el estatus de los archivos en commit o creados que no se han guardado
 (git add .) agrega todos los archivos al commit
