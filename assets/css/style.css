@@ -1,0 +1,42 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*===== Colors =====*/
+    --hue-color: 188;
+
+    /* HSL Color Mode */
+    --transparent-color: hsla(0, 0%, 0%, 0.3);
+    --skin-color: hsl(230, 56%, 72%);
+    --title-color: hsl(var(--hue-color), 65%, 9%);
+    --text-color: hsl(var(--hue-color), 8%, 85%);
+    --body-color: hsl(var(--hue-color), 66%, 77%);
+    --box-color: hsl(var(--hue-color), 14%, 10%);
+
+    /*===== Font and Typography =====*/
+    --body-font: 'Poppins', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --biggest-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    /*===== Font Weight =====*/
+    --font-medium: 500;
+    --font-bold: 600;
+
+    
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+h1{
+    color: var(--title-color);
+}
