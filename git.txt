@@ -23,7 +23,7 @@
 (git log) mira el historial de los commits y en que rama, precionar q para salir
 (git checkout (codigo del commit))
 
-*************** gits de manipulacion de ramas
+*************** gits de manipulacion de ramas.
 
 (git branch) visualiza las ramas existentes de forma local
 (git branch -r) visualizacion de ramas en el repositorio
@@ -33,7 +33,7 @@
 (git push origin (nombreRama)) subida de commits
 (git push -u origin (nombreRama)) subida de la rama de origen a github
 (git push origin --delete (rama)) eliminacion de una rama del repositorio
-(git branch -D (rama)) eliminacion de la rama de forma local
+(git branch -D (rama)) eliminacion de la rama de forma local.
 
 
 
