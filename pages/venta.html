@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    crossorigin="anonymous" />
+
+  <!-- Tu CSS personalizado -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <title>División con Tabla</title>
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/women/74.jpg" alt="user" />
+    </div>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Venta</a></li>
+      <li><a href="#">Reembolso</a></li>
+      <li><a href="#">Pérdida</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Reportes</a></li>
+      <li><a href="#">Usuario</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Nueva Venta</h1>
+    </header>
+
+    <!-- Sección dividida -->
+    <div class="section-container">
+      <!-- Columna izquierda -->
+      <div class="left-section">
+        <h2>Formulario Lado Izquierdo</h2>
+
+        <form>
+          <!-- Combo Box -->
+          <label for="options">Selecciona una opción:</label>
+          <select id="options" name="options">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+          </select>
+      
+          <!-- Input Text -->
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Introduce tu nombre">
+      
+          <!-- Textarea -->
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" placeholder="Escribe tu mensaje" rows="4" cols="50"></textarea>
+      
+          <!-- Submit Button -->
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <!-- Columna derecha con la tabla centrada -->
+      <div class="right-section">
+        <h2>Resumen de Venta</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Producto A</td>
+              <td>2</td>
+              <td>$20</td>
+            </tr>
+            <tr>
+              <td>Producto B</td>
+              <td>1</td>
+              <td>$15</td>
+            </tr>
+            <tr>
+              <td>Producto C</td>
+              <td>3</td>
+              <td>$30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="../assets/js/nav.js"></script>
+</body>
+
+</html>
